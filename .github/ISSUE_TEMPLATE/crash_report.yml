@@ -1,0 +1,53 @@
+name: "Crash Report"
+description: "Report an issue that crashes the game"
+title: "CRASH: ISSUE_DESCRIPTION"
+labels:
+  - "type: crash"
+body:
+  - type: input
+    id: crash_report
+    attributes:
+      label: "Crash Report"
+      description: "We need the crash report to figure out why the crash happened. This file can be found in the 'crash-reports' folder of your Minecraft folder. It will be the newest file there. Please upload the file to https://mclo.gs/ and put the link here. Do not paste the contents of the file here, because that will make this issue very hard to read."
+    validations:
+      required: true
+  - type: dropdown
+    id: game_version
+    attributes:
+      label: "Game Version"
+      description: "Select the game version."
+      options:
+        - "1.20.1"
+        - "1.21.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: mod_version
+    attributes:
+      label: "Mod Version"
+      description: "Select the mod version."
+      options:
+        - "1.0.0"
+        - "1.1.0"
+        - "0.5.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: "Modloader"
+      description: "Select the modloader."
+      options:
+        - "Forge"
+        - "NeoForge"
+        - "Fabric"
+    validations:
+      required: true
+  - type: input
+    id: modloader_version
+    attributes:
+      label: "Modloader Version"
+      description: "Modloader version."
+      placeholder: "ex. 47.3.0"
+    validations:
+      required: true
