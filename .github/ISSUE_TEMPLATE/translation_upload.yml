@@ -1,0 +1,26 @@
+name: "Translation Upload"
+description: Provide a language translation of this mod
+title: "Translation: LANGUAGE"
+labels: [ "type: translation" ]
+
+body:
+    - type: input
+      attributes:
+        label: Language Name
+        description: Please state the name of the language this is a translation for (for use in the Translation Info wiki page).
+        placeholder: e.x. Lolcatz
+      validations:
+        required: true
+    - type: input
+      attributes:
+        label: Accreditation
+        description: Please state the name you wish to be credited under on the Translation Info wiki page. If you do not wish to be credited, simply say "anonymous"
+        placeholder: e.x. Po2432
+      validations:
+        required: true
+    - type: textarea
+      attributes:
+        label: Language File
+        description: Please attach the *.json language file here. DO NOT copy/paste the file's contents into this form.
+      validations:
+        required: true
