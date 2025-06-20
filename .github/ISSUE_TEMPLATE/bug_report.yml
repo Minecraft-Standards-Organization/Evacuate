@@ -51,6 +51,7 @@ body:
       options:
         - "1.0.0"
         - "1.1.0"
+        - "0.5.0"
     validations:
       required: true
 
