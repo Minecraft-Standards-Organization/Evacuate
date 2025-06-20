@@ -1,0 +1,76 @@
+name: "Bug Report"
+description: Create a bug report
+title: "BUG: ISSUE_DESCRIPTION"
+labels: [ "type: bug" ]
+body:
+  - type: textarea
+    id: describe_the_bug
+    attributes:
+      label: "Describe the Bug"
+      description: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: to_reproduce
+    attributes:
+      label: "To Reproduce"
+      description: "Steps to reproduce the behavior:"
+      placeholder: |
+        1. 
+        2. 
+        3. 
+        4. 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "A clear and concise description of what you expected to happen."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game_version
+    attributes:
+      label: "Game Version"
+      description: "Select the game version."
+      options:
+        - "1.20.1"
+        - "1.21.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mod_version
+    attributes:
+      label: "Mod Version"
+      description: "Select the mod version."
+      options:
+        - "1.0.0"
+        - "1.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: "Modloader"
+      description: "Select the modloader."
+      options:
+        - "Forge"
+        - "NeoForge"
+        - "Fabric"
+    validations:
+      required: true
+
+  - type: input
+    id: modloader_version
+    attributes:
+      label: "Modloader Version"
+      description: "Modloader version."
+      placeholder: "ex. 47.3.0"
+    validations:
+      required: true
