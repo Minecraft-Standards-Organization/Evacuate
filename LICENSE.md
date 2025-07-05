@@ -1,5 +1,4 @@
 ## License Website: https://www.po2432.infinityfreeapp.com/po2432s-modders-license-1-0/
-
 # Po2432's Modder's License 1.0  
 **Copyright © 2025 Po2432**
 
@@ -8,9 +7,10 @@ To the extent this Public License may be interpreted as a contract, the Licensee
 
 ---
 
-## 1. Definitions
+## 1. Definitions  
 - **Licensor**: The original creator of the mod who retains ownership of both source code and associated textures or assets.  
 - **Licensee**: Any individual or entity granted limited rights under this license to use or distribute the mod under specified conditions.  
+- **Mod**: A standalone or supplemental software package intended to alter, enhance, or expand an existing game, typically developed by independent creators outside the original game developer or publisher. Mods may include changes to gameplay mechanics, assets, user interfaces, or add entirely new content.  
 - **Licensed Material**: Refers to the software defined as “the mod,” including its code, textures, assets, and documentation.  
 - **Modpack**: A compilation of multiple mods packaged and distributed together.  
 - **Official Mod Page**: The original web page hosting the mod as designated by the Licensor.  
@@ -22,6 +22,13 @@ To the extent this Public License may be interpreted as a contract, the Licensee
 ## 2. Ownership and Eligibility  
 Only the Licensor, who owns both the source code and all associated textures and assets, is authorized to license the mod under the terms herein.  
 Use of this license by any party not meeting the ownership requirement is prohibited.
+
+---
+
+## 2.5 Scope of License  
+This license applies **exclusively to Mods** as defined above. It may not be applied to any other type of software, digital product, or creative work that does not meet the criteria of a Mod.  
+
+Use of this license for assets, programs, frameworks, applications, standalone games, or any content **not intended as a mod** for an existing game is strictly prohibited.
 
 ---
 
@@ -83,3 +90,9 @@ For the avoidance of doubt:
 
 ## 7. Termination  
 Any violation of these terms results in **automatic termination** of the license rights granted herein without notice. Upon termination, the Licensee must immediately cease all use and distribution of the Licensed Material.
+
+---
+
+## 8. Irrevocability  
+Once the Licensor releases a mod under this license, the terms and conditions of this license **cannot be revoked, altered, or canceled** for that specific release of the Licensed Material.  
+Future versions of the mod may be released under different terms, but the version already published under this license shall remain governed by it indefinitely.
