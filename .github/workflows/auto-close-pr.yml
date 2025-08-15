@@ -1,0 +1,36 @@
+name: Auto Close Unwanted PRs
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  conditional-close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR if not opened by po2432
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const opener = pr.user.login;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const prNumber = pr.number;
+
+            if (opener !== "po2432") {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: prNumber,
+                body: "🚫 This repository does not accept pull requests from external contributors. Please use the designated workflow or contact the maintainers."
+              });
+
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: prNumber,
+                state: "closed"
+              });
+            }
