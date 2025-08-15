@@ -24,7 +24,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: prNumber,
-              body: `Hi @${prAuthor}, this pull request has been automatically closed because PRs are not used in this repository.`
+              body: `This pull request has been automatically closed because PRs are not used in this repository, please open a issue instead.`
             });
 
             // Close the PR
