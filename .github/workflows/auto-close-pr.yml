@@ -19,12 +19,12 @@ jobs:
             const repo = context.repo.repo;
             const prNumber = pr.number;
 
-            if (opener !== "po2432") {
+            if (opener !== "po243") {
               await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number: prNumber,
-                body: "🚫 This repository does not accept pull requests from external contributors. Please use the designated workflow or contact the maintainers."
+                body: "🚫 This repository does not accept pull requests."
               });
 
               await github.rest.pulls.update({
