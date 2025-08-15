@@ -1,3 +1,6 @@
+permissions:
+  pull-requests: write
+  
 name: Auto Close PRs Immediately
 
 on:
