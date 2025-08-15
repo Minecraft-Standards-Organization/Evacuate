@@ -1,5 +1,6 @@
 permissions:
   pull-requests: write
+  issues: write
   
 name: Auto Close PRs Immediately
 
@@ -11,7 +12,7 @@ jobs:
   auto-close:
     runs-on: ubuntu-latest
     steps:
-      - name: Close PR and leave comment
+      - name: Close PR, leave comment, and lock conversation
         uses: actions/github-script@v6
         with:
           script: |
@@ -24,7 +25,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: prNumber,
-              body: `This pull request has been automatically closed because PRs are not used in this repository, please open a issue instead.`
+              body: `This pull request has been automatically closed because PRs are not used in this repository, please open an issue instead.`
             });
 
             // Close the PR
@@ -33,4 +34,12 @@ jobs:
               repo: context.repo.repo,
               pull_number: prNumber,
               state: 'closed'
+            });
+
+            // Lock the conversation with "off-topic" reason
+            await github.rest.issues.lock({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              lock_reason: "off-topic"
             });
