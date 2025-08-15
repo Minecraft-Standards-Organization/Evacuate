@@ -11,7 +11,7 @@ jobs:
       - name: Close PR if not opened by po2432
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.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 }}
           script: |
             const pr = context.payload.pull_request;
             const opener = pr.user.login;
