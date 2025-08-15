@@ -1,36 +1,33 @@
-name: Auto Close Unwanted PRs
+name: Auto Close PRs Immediately
 
 on:
   pull_request:
     types: [opened]
 
 jobs:
-  conditional-close:
+  auto-close:
     runs-on: ubuntu-latest
     steps:
-      - name: Close PR if not opened by po2432
-        uses: actions/github-script@v7
+      - name: Close PR and leave comment
+        uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.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 }}
           script: |
             const pr = context.payload.pull_request;
-            const opener = pr.user.login;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
             const prNumber = pr.number;
+            const prAuthor = pr.user.login;
 
-            if (opener !== "po243") {
-              await github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number: prNumber,
-                body: "🚫 This repository does not accept pull requests."
-              });
+            // Leave a comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: `Hi @${prAuthor}, this pull request has been automatically closed because PRs are not used in this repository.`
+            });
 
-              await github.rest.pulls.update({
-                owner,
-                repo,
-                pull_number: prNumber,
-                state: "closed"
-              });
-            }
+            // Close the PR
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+              state: 'closed'
+            });
