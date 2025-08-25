@@ -2,15 +2,7 @@
 
 # 🚨 Evacuate! — Minecraft Mod
 
-**Evacuate!** is a Minecraft mod that adds themed decorations inspired by emergency evacuation scenarios. Perfect for building high-alert environments, disaster drills, or just spicing up your world with alarms and signs!
-
----
-
-## 🧩 Modular Design
-
-The **Evacuate!** mod is part of a growing series of modular content. Each module focuses on different aspects—whether it's functional alarms, visual props, lighting effects, or interactive signs.
-
-This means you can mix and match different **Evacuate Series** mods to customize your Minecraft world based on your needs. Lightweight, focused, and always compatible!
+**Evacuate!** is a Minecraft mod that adds themed decorations inspired by emergency evacuation systems and standards. Perfect for building high-alert environments, disaster drills, or just spicing up your world with alarms and signs!
 
 ---
 
