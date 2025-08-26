@@ -2,6 +2,7 @@ name: "Translation Upload"
 description: Provide a language translation of this mod
 title: "Translation: LANGUAGE"
 labels: [ "type: translation" ]
+assignees: po2432
 
 body:
     - type: input
