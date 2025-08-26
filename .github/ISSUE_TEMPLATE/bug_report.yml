@@ -2,6 +2,7 @@ name: "Bug Report"
 description: Create a bug report
 title: "BUG: ISSUE_DESCRIPTION"
 labels: [ "type: bug" ]
+assignees: po2432
 body:
   - type: textarea
     id: describe_the_bug
