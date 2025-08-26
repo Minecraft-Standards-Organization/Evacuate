@@ -1,0 +1,30 @@
+name: Sign Request
+description: Suggest a new sign
+title: "Sign Request: Your Idea's Title"
+labels: "type: sign request"
+body:
+  - type: input
+    attributes:
+      label: What standard is this sign in?
+      placeholder: ex. ISO-7010.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Sign you want to get added (Name)"
+      placeholder: ex. Fire Extinguisher Sign
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Sign you want to get added (Code inside the standard if avaible)"
+      placeholder: ex. F-001
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: A png or jpg format of the sign you want to get added or a site link i can find the sign.
+      description: The sign has to be at least 64x64 pixels to be used.
+      placeholder: ex. en.wikipedia.org/WIKI/iso-7010
+    validations:
+      required: true
