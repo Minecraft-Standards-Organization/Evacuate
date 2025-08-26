@@ -29,9 +29,9 @@ body:
     validations:
       required: true
       body:
-- type: checkboxes
-  attributes:
-    label: Understand
-    options:
-      - label: I understood that ANSI, NPFA, and OSHA signs will not be accepted.
-        required: true
+ - type: checkboxes
+   attributes:
+     label: Understand
+     options:
+       - label: I understood that ANSI, NPFA, and OSHA signs will not be accepted.
+         required: true
