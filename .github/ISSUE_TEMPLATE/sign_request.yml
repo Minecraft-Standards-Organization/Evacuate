@@ -31,7 +31,7 @@ body:
       body:
 - type: checkboxes
   attributes:
-    label: 
+    label: Understand
     options:
       - label: I understood that ANSI, NPFA, and OSHA signs will not be accepted.
         required: true
