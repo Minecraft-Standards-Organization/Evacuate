@@ -2,6 +2,7 @@ name: Sign Request
 description: Suggest a new sign
 title: "Sign Request: Your Idea's Title"
 labels: "type: sign request"
+assignees: po2432
 body:
   - type: input
     attributes:
