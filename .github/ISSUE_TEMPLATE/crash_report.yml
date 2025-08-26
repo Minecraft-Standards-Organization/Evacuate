@@ -1,6 +1,7 @@
 name: "Crash Report"
 description: "Report an issue that crashes the game"
 title: "CRASH: ISSUE_DESCRIPTION"
+assignees: po2432
 labels:
   - "type: crash"
 body:
