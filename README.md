@@ -13,3 +13,8 @@ See wiki for more info.
        src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_64h.png&n=-1" 
        alt="CurseForge | Evacuate Mod" />
 </a>
+<a href="https://modrinth.com/mod/evacuate" rel="nofollow">
+  <img style="width:140px;height:40px" 
+       src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png&n=-1" 
+       alt="Modrinth | Evacuate Mod" />
+</a>
