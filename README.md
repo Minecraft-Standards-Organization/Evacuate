@@ -6,3 +6,5 @@
 
 ---
 See wiki for more info.
+
+[![Crowdin | Agile localization for tech companies](https://badges.crowdin.net/badge/dark/crowdin-on-light.png)](https://crowdin.com/?utm_term=click-badge-add-on)
