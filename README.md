@@ -3,6 +3,8 @@
 [![Crowdin](https://badges.crowdin.net/evacuate/localized.svg)](https://crowdin.com/project/evacuate)
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/H1Jp5ljG?logo=Modrinth)
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/1282664?logo=curseforge)
+![Static Badge](https://img.shields.io/badge/License-Po2432's_Modder's_License-blue?link=https%3A%2F%2Fpo2432.infinityfreeapp.com%2Fpo2432s-modders-license-1-0%2F)
+
 # 🚨 Evacuate! — Minecraft Mod
 
 **Evacuate!** is a Minecraft mod that adds themed decorations inspired by emergency evacuation systems and standards. Perfect for building high-alert environments, disaster drills, or just spicing up your world with alarms and signs!
