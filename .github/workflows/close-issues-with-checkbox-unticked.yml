@@ -1,3 +1,7 @@
+permissions:
+  pull-requests: write
+  issues: write
+  
 name: Validate Checkbox on Edit
 
 on:
