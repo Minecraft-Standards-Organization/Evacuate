@@ -1,6 +1,7 @@
 # Contributing Guide for Evacuate!
 
 Thank you for your interest in contributing to **Evacuate!**, a Minecraft mod that adds internationally recognized safety signs to enhance realism, education, and emergency preparedness in-game. This document outlines how you can participate meaningfully in the development of the mod.
+
 ---
 This repository does **not** accept pull requests. All development is managed internally. Contributions are welcome through issue reports and sign requests only.
 
