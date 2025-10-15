@@ -1,0 +1,51 @@
+name: Validate Checkbox on Edit
+
+on:
+  issues:
+    types: [edited]
+
+jobs:
+  validate-checkbox:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if checkbox was unticked
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const labelMatch = issue.labels.some(label => label.name === "type: sign request");
+            if (!labelMatch) return;
+
+            const body = issue.body || "";
+            const checkboxLine = "- [x] I understood that only ISO 7010 and IMO A.1116(30) signs will be added.";
+            const checkboxUntickedLine = "- [ ] I understood that only ISO 7010 and IMO A.1116(30) signs will be added.";
+
+            if (body.includes(checkboxUntickedLine)) {
+              const issue_number = issue.number;
+              const repo = context.repo;
+
+              // Comment on the issue
+              await github.rest.issues.createComment({
+                owner: repo.owner,
+                repo: repo.repo,
+                issue_number,
+                body: "⚠️ This issue was closed because the required checkbox was unticked after submission. Requests must acknowledge ISO 7010 and IMO A.1116(30) compliance."
+              });
+
+              // Close the issue
+              await github.rest.issues.update({
+                owner: repo.owner,
+                repo: repo.repo,
+                issue_number,
+                state: "closed",
+                state_reason: "not_planned"
+              });
+
+              // Lock the conversation
+              await github.rest.issues.lock({
+                owner: repo.owner,
+                repo: repo.repo,
+                issue_number,
+                lock_reason: "resolved"
+              });
+            }
