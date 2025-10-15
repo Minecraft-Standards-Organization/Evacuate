@@ -29,3 +29,12 @@ body:
       placeholder: ex. en.wikipedia.org/WIKI/iso-7010
     validations:
       required: true
+  - type: checkboxes
+    id: iso_imo_acknowledgement
+    attributes:
+      label: Acknowledgement
+      description: You must confirm before submitting.
+      options:
+        - label: I understood that only ISO 7010 and IMO A.1116(30) signs will be added.
+          required: true
+
