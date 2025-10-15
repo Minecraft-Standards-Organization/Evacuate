@@ -27,7 +27,7 @@ Participants shall not:
 - Submit irrelevant, misleading, or intentionally disruptive content.
 - Circumvent or disregard repository rules, templates, or submission requirements.
 
-## Article IV: Sign Request Protocol
+## Article IV: Sign Request Issue Protocol
 
 ### Section 1: Standards Compliance
 
