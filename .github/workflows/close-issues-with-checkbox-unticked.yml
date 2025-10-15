@@ -33,7 +33,7 @@ jobs:
                 owner: repo.owner,
                 repo: repo.repo,
                 issue_number,
-                body: "⚠️ This issue was closed because the required checkbox was unticked after submission. Requests must acknowledge ISO 7010 and IMO A.1116(30) compliance."
+                body: "This issue was closed and locked because the required checkbox was unticked after submission, violating the repository’s Code of Conduct by bypassing the stated contribution guidelines."
               });
 
               // Close the issue
