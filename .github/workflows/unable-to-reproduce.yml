@@ -2,14 +2,15 @@ name: Comment on "Unable to Reproduce" Label
 
 on:
   issues:
-    types: [labeled]
+    types:
+      - labeled
 
 permissions:
   issues: write
 
 jobs:
   comment-on-unable-to-reproduce:
-    if: github.event.label.name == 'status: unable to reproduce'
+    if: ${{ github.event.label.name == 'status: unable to reproduce' }}
     runs-on: ubuntu-latest
     steps:
       - name: Comment on issue
@@ -20,5 +21,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: "🔍 We've reviewed this issue but were unable to reproduce the bug as described. Without additional information or clearer reproduction steps, we may need to close this issue. Please feel free to update it with more details if you're able to!"
+              body: "⚠️ We were unable to reproduce the bug as described. Unless more details are provided to help us replicate the issue, it may be dismissed. Please update the issue with any additional information you can share."
             })
