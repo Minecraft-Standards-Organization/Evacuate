@@ -23,3 +23,9 @@ See wiki for more info.
        src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png&n=-1" 
        alt="Modrinth | Evacuate Mod" />
 </a>
+</a>
+<a href="https://mso.infinityfreeapp.com/mods/evacuate" rel="nofollow">
+  <img style="width:140px;height:55px" 
+       src="https://github.com/user-attachments/assets/8700b5cb-d1c0-4846-9c85-f794daf6124f" 
+       alt="MSO | Evacuate Mod" />
+</a>
