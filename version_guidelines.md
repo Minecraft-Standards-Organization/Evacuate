@@ -85,3 +85,18 @@ MAJOR.MINOR.PATCH-PRERELEASE][+BUILD]
   "1.20.1-latest": "1.7.0",
   "1.20.1-recommended": "1.7.0"
 }
+```
+## Evacuate Custom Versioning System
+
+Format: MAJOR.MINOR.PATCH.PATCHLETTER
+
+- **MAJOR** → Big content updates (many new features, expansions).
+- **MINOR** → Smaller feature updates (new signs, translations, recipes).
+- **PATCH** → Bug fixes or small tweaks.
+- **PATCHLETTER** → Micro‑fixes or corrective adjustments to the patch.
+
+### Examples
+- `1.2.0a` → Initial release with new feature.
+- `1.2.0b` → Micro‑fix (removed permanent message).
+- `1.3.0a` → Minor feature update (new ISO signs).
+- `2.0.0a` → Major expansion (hazards & rules).
