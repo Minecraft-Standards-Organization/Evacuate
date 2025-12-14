@@ -1,8 +1,8 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/evacuate",
   "promos": {
-    "1.20.1-latest": "1.6.0",
-    "1.20.1-recommended": "1.6.0",
+    "1.20.1-latest": "1.7.0",
+    "1.20.1-recommended": "1.7.0",
     "1.21.1-latest": "1.6.0",
     "1.21.1-recommended": "1.6.0"
   },
@@ -18,6 +18,7 @@
     "1.4.0": "Added more ISO 7010 signs and their crafting recipes.",
     "1.5.0": "https://github.com/Minecraft-Standards-Organization/Evacuate/wiki/Changelogs#150",
     "1.6.0": "https://github.com/Minecraft-Standards-Organization/Evacuate/wiki/Changelogs#160"
+    "1.7.0": "TEST NOT RELEASED"
   },
   "1.21.1": {
     "1.1.0": "First Neoforge version.",
