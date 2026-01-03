@@ -1,6 +1,6 @@
 ## License Website: https://po2432.infinityfreeapp.com/po2432s-modders-license-1-0/
 # Po2432's Modder's License 1.0  
-**Copyright © 2025 Po2432**
+**Copyright © 2025-2026 Po2432**
 
 By exercising the Licensed Rights (defined below), the Licensee accepts and agrees to be bound by the terms and conditions of this Po2432's Modder's License 1.0 (“Public License”).  
 To the extent this Public License may be interpreted as a contract, the Licensee is granted the Licensed Rights in consideration of acceptance of these terms and conditions, and the Licensor grants such rights in consideration of the benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
