@@ -85,7 +85,7 @@ Evacuate! is a standards-based mod. All content must adhere to the following pri
 - The mod does not include **custom signage**, **branding**, or **non-safety graphics**.
 
 > [!TIP]
-> If you have ideas for broader signage mods or custom content, consider creating a separate mod or fork. Evacuate! is strictly focused on standardized safety signs.
+> If you have ideas for broader signage mods or custom content, consider creating a separate mod. Evacuate! is strictly focused on standardized safety signs.
 
 ---
 
