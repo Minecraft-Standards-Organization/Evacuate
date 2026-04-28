@@ -29,3 +29,5 @@ See wiki for more info.
        src="https://github.com/user-attachments/assets/8700b5cb-d1c0-4846-9c85-f794daf6124f" 
        alt="MSO | Evacuate Mod" />
 </a>
+
+![Wont support fabric](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/unsupported/fabric_64h.png)
