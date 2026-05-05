@@ -1,3 +1,4 @@
+![Wont support fabric](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/unsupported/fabric_64h.png)
 # Contributing Guide for Evacuate!
 
 Thank you for your interest in contributing to **Evacuate!**, a Minecraft mod that adds internationally recognized safety signs to enhance realism, education, and emergency preparedness in-game. This document outlines how you can participate meaningfully in the development of the mod.
