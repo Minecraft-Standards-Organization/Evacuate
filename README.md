@@ -31,3 +31,4 @@ See wiki for more info.
 </a>
 
 ![Wont support fabric](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/unsupported/fabric_64h.png)
+[<img width="241" height="58" alt="cozy_vector" src="https://github.com/user-attachments/assets/71e7c6f2-a8eb-41c4-9279-d2a7a18ef350" />](https://forms.gle/c3LnreLzpTh5QZ1n9)
