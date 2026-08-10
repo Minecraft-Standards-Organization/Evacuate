@@ -18,10 +18,10 @@ See wiki for more info.
        src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_64h.png&n=-1" 
        alt="CurseForge | Evacuate Mod" />
 </a>
-<a href="https://modrinth.com/mod/evacuate" rel="nofollow">
+<a href="https:/po2432.github.io/Po2432/modrinth.html" rel="nofollow">
   <img style="width:140px;height:40px" 
-       src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png&n=-1" 
-       alt="Modrinth | Evacuate Mod" />
+       src="https://raw.githubusercontent.com/Po2432/Po2432-s-Badges/c05617b12e71d9071f5d29418d7a8b7e8a4bbeb5/badges/cozy/svg/no-longer-available-on-modrinth.svg" 
+       alt="No longer available on modrinth" />
 </a>
 </a>
 <a href="https://mso.infinityfreeapp.com/mods/evacuate" rel="nofollow">
