@@ -2,7 +2,7 @@
 
 ## Article I: Purpose
 
-This Code of Conduct governs all interactions within this repository and its associated community spaces. It is established to ensure orderly, respectful, and standards-compliant participation in the development and maintenance of the Safety Signs Mod for Minecraft.
+This Code of Conduct governs all interactions within this repository and its associated community spaces. It is established to ensure orderly, respectful, and standards-compliant participation in the development and maintenance of the Evacuate! mod for Minecraft.
 
 ## Article II: Scope
 
